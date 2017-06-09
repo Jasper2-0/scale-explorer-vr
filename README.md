@@ -14,10 +14,12 @@ https://vvvv.org/sites/all/modules/general/pubdlcnt/pubdlcnt.php?file=https://vv
 
 It also requires the following extensions to be installed:
 
-https://vvvv.org/contribution/directx11-nodes
-https://vvvv.org/contribution/vvvv.openvr
-https://vvvv.org/contribution/microdevil-intersect
+- DirectX11 Nodes - https://vvvv.org/contribution/directx11-nodes
+- VVVV.OpenVR - https://vvvv.org/contribution/vvvv.openvr
+- Microdevil Interset - https://vvvv.org/contribution/microdevil-intersect
 
 
-Open _rootVR.v4p for the VR Prototype, _rootNOVR.v4p can be used on systems 
+Open zoomer/_rootVR.v4p for the VR Prototype, _rootNOVR.v4p can be used on systems 
 with no VR.
+
+/intersectionTestVR/ contains a working patch with intersection testing between the HTC controllers 
