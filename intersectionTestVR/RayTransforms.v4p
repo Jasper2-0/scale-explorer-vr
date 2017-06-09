@@ -1,0 +1,167 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.5.dtd" >
+   <PATCH nodename="C:\Users\MediaTechnology\Desktop\vvvv_50beta35.5_x86\vvvv_50beta35.5_x86\projects\intersectionTestVR\RayTransforms.v4p" systemname="RayTransforms" filename="C:\Users\MediaTechnology\Desktop\vvvv_50beta35.5_x86\vvvv_50beta35.5_x86\projects\intersectionTestVR\RayTransforms.v4p" scrollx="0" scrolly="1800">
+   <NODE systemname="ApplyTransform (Transform Vector)" nodename="ApplyTransform (Transform Vector)" componentmode="Hidden" id="0">
+   <BOUNDS type="Node" left="150" top="9720" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Transform" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="XYZ Transformed" visible="1">
+   </PIN>
+   <PIN pinname="XYZ UnTransformed" visible="1" slicecount="3" values="0,0,0">
+   </PIN>
+   </NODE>
+   <NODE id="2" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="2790" top="6870" width="795" height="720">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2790" top="6870" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="3" visible="1" values="0,15,2.89">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="3">
+   </PIN>
+   <PIN pinname="Vector Size" slicecount="1" values="3">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="|0, 0, 0|">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|raydirXYZ default|">
+   </PIN>
+   </NODE>
+   <NODE id="3" nodename="IOBox (Node)" componentmode="InABox" systemname="IOBox (Node)">
+   <BOUNDS type="Box" left="1515" top="7080" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1515" top="7080" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE id="4" systemname="Transform (Transform 3d)" nodename="Transform (Transform 3d)" componentmode="Hidden">
+   <BOUNDS type="Node" left="1530" top="6030" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="ScaleX" visible="1" slicecount="1" values="7.29148636942906E-051">
+   </PIN>
+   <PIN pinname="ScaleY" visible="1" slicecount="1" values="7.29148636942906E-051">
+   </PIN>
+   <PIN pinname="ScaleZ" visible="1" slicecount="1" values="7.29148636942906E-051">
+   </PIN>
+   <PIN pinname="Pitch" slicecount="1" values="0.25">
+   </PIN>
+   <PIN pinname="Yaw" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Roll" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="TranslateX" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="TranslateZ" visible="1" slicecount="1" values="0.02">
+   </PIN>
+   <PIN pinname="TranslateY" slicecount="1" values="-0.032">
+   </PIN>
+   </NODE>
+   <NODE id="5" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="2160" top="4890" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2160" top="4890" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.03">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="6" nodename="IOBox (String)" componentmode="InABox" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="2685" top="5490" width="795" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2685" top="5490" width="795" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="_Selector">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE id="7" systemname="ApplyTransform (Transform Direction)" filename="%VVVV%\lib\nodes\modules\Transform\ApplyTransform (Transform Direction).v4p" nodename="ApplyTransform (Transform Direction)" componentmode="Hidden">
+   <BOUNDS type="Node" left="1500" top="7860" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="XYZ UnTransformed" visible="1" slicecount="3" values="0,0,0">
+   </PIN>
+   <PIN pinname="Transform" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="XYZ Transformed" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="3" srcpinname="Output Node" dstnodeid="7" dstpinname="Transform">
+   </LINK>
+   <LINK srcnodeid="2" srcpinname="Y Output Value" dstnodeid="7" dstpinname="XYZ UnTransformed">
+   </LINK>
+   <NODE id="8" systemname="IOBox (Value Advanced)" componentmode="InABox" nodename="IOBox (Value Advanced)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="RayDirXYZ">
+   </PIN>
+   <BOUNDS type="Box" left="1530" top="10275" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1530" top="10275" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="7" srcpinname="XYZ Transformed" dstnodeid="8" dstpinname="Y Input Value">
+   </LINK>
+   <LINK srcnodeid="4" srcpinname="Transform Out" dstnodeid="3" dstpinname="Input Node">
+   </LINK>
+   <NODE id="9" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Output Node|">
+   </PIN>
+   <BOUNDS type="Box" left="2970" top="8745" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2970" top="8745" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="3" srcpinname="Output Node" dstnodeid="9" dstpinname="Input Node">
+   </LINK>
+   <NODE id="10" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Transform In|">
+   </PIN>
+   <BOUNDS type="Box" left="1530" top="4070" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1530" top="4070" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="10" srcpinname="Output Node" dstnodeid="4" dstpinname="Transform In">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="Output Node" dstnodeid="0" dstpinname="Transform" linkstyle="Bezier" hiddenwhenlocked="1">
+   <LINKPOINT x="780" y="8483">
+   </LINKPOINT>
+   <LINKPOINT x="945" y="8558">
+   </LINKPOINT>
+   </LINK>
+   <NODE id="11" systemname="IOBox (Value Advanced)" componentmode="InABox" nodename="IOBox (Value Advanced)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="RayPosXYZ">
+   </PIN>
+   <BOUNDS type="Box" left="150" top="10290" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="150" top="10290" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="XYZ Transformed" dstnodeid="11" dstpinname="Y Input Value">
+   </LINK>
+   <BOUNDS type="Window" left="7170" top="4050" width="11595" height="10710">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="35.0.0">
+   </PACK>
+   <LINK srcnodeid="5" srcpinname="Y Output Value" dstnodeid="4" dstpinname="ScaleX">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Y Output Value" dstnodeid="4" dstpinname="ScaleY">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Y Output Value" dstnodeid="4" dstpinname="ScaleZ">
+   </LINK>
+   </PATCH>
