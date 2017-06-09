@@ -1,0 +1,7 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.5.dtd" >
+   <PATCH nodename="C:\Users\CMI HRO\Desktop\vvvv_50beta35.5_x86\vvvv_50beta35.5_x86\projects\zoomer\subpatches\SceneZoomLevel.v4p" systemname="SceneZoomLevel" filename="C:\Users\CMI HRO\Desktop\vvvv_50beta35.5_x86\vvvv_50beta35.5_x86\projects\zoomer\subpatches\SceneZoomLevel.v4p">
+   <BOUNDS type="Window" left="18450" top="12270" width="9000" height="6000">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="35.0.0">
+   </PACK>
+   </PATCH>

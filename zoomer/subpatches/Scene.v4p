@@ -1,0 +1,2167 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.5.dtd" >
+   <PATCH nodename="C:\Users\MediaTechnology\Desktop\vvvv_50beta35.5_x86\vvvv_50beta35.5_x86\projects\zoomer\subpatches\Scene.v4p" systemname="Scene" filename="C:\Users\CMI HRO\Desktop\vvvv_50beta35.5_x86\vvvv_50beta35.5_x86\projects\zoomer\subpatches\Scene.v4p" scrollx="0" scrolly="0">
+   <BOUNDS type="Window" left="9690" top="330" width="10365" height="12255">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="35.0.0">
+   </PACK>
+   <NODE id="9" systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" hiddenwhenlocked="0" managers="">
+   <BOUNDS type="Node" left="5880" top="4665" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="5880" top="4665" width="2505" height="240">
+   </BOUNDS>
+   <PIN pinname="Output String" visible="1" pintype="Output">
+   </PIN>
+   <PIN pinname="Input String" slicecount="1" pintype="Input" visible="1" values="..\models\dna-test.dae">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" pintype="Configuration" values="Filename">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" pintype="Configuration" values="||">
+   </PIN>
+   <BOUNDS type="Window" left="0" top="0" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Pin Visibility" pintype="Configuration" slicecount="1" values="True">
+   </PIN>
+   <PIN pinname="SliceCount Mode" pintype="Configuration" slicecount="1" values="Input">
+   </PIN>
+   <PIN pinname="Columns" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Rows" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Pages" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Show SliceIndex" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Font" pintype="Configuration" slicecount="1" values="|Lucida Sans Unicode|">
+   </PIN>
+   <PIN pinname="Size" pintype="Configuration" slicecount="1" values="7">
+   </PIN>
+   <PIN pinname="Show Grid" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Default" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" pintype="Configuration" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Show Characters [#0..#32,#127]" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="SliceOffset" pintype="Input" visible="-1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Changed" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <NODE id="7" systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" hiddenwhenlocked="0" managers="">
+   <BOUNDS type="Node" left="6600" top="5550" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6600" top="5550" width="2085" height="240">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" pintype="Configuration" values="||">
+   </PIN>
+   <PIN pinname="Output String" visible="1" pintype="Output">
+   </PIN>
+   <PIN pinname="Input String" slicecount="1" pintype="Input" visible="1" values="..\models\0\item_00_position.txt">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" pintype="Configuration" values="Filename">
+   </PIN>
+   <BOUNDS type="Window" left="0" top="0" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Pin Visibility" pintype="Configuration" slicecount="1" values="True">
+   </PIN>
+   <PIN pinname="SliceCount Mode" pintype="Configuration" slicecount="1" values="Input">
+   </PIN>
+   <PIN pinname="Columns" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Rows" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Pages" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Show SliceIndex" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Font" pintype="Configuration" slicecount="1" values="|Lucida Sans Unicode|">
+   </PIN>
+   <PIN pinname="Size" pintype="Configuration" slicecount="1" values="7">
+   </PIN>
+   <PIN pinname="Show Grid" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Default" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" pintype="Configuration" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Show Characters [#0..#32,#127]" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="SliceOffset" pintype="Input" visible="-1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Changed" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="0">
+   <BOUNDS type="Node" left="6975" top="5925" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6975" top="5925" width="285" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="3">
+   </PIN>
+   </NODE>
+   <NODE systemname="Group (DX11.Layer)" filename="%VVVV%\packs\dx11\nodes\plugins\VVVV.DX11.Nodes.dll" nodename="Group (DX11.Layer)" componentmode="Hidden" id="27">
+   <BOUNDS type="Node" left="240" top="29760" width="2100" height="270">
+   </BOUNDS>
+   <PIN pinname="Input Count" slicecount="1" values="34">
+   </PIN>
+   <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 2" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 3" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer Out" visible="1">
+   </PIN>
+   <PIN pinname="Layer 5" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 6" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 7" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 8" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 9" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 10" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 12" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 11" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 13" visible="1">
+   </PIN>
+   <PIN pinname="Layer 14" visible="1">
+   </PIN>
+   <PIN pinname="Layer 15" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 16" visible="1">
+   </PIN>
+   <PIN pinname="Layer 17" visible="1">
+   </PIN>
+   <PIN pinname="Layer 18" visible="1">
+   </PIN>
+   <PIN pinname="Layer 19" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 20" visible="1">
+   </PIN>
+   <PIN pinname="Layer 21" visible="1">
+   </PIN>
+   <PIN pinname="Layer 22" visible="1">
+   </PIN>
+   <PIN pinname="Layer 23" visible="1">
+   </PIN>
+   <PIN pinname="Layer 24" visible="1">
+   </PIN>
+   <PIN pinname="Layer 25" visible="1">
+   </PIN>
+   <PIN pinname="Layer 27" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 26" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 28" visible="1">
+   </PIN>
+   <PIN pinname="Layer 29" visible="1">
+   </PIN>
+   <PIN pinname="Layer 31" visible="1">
+   </PIN>
+   <PIN pinname="Layer 33" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (Node)" nodename="IOBox (Node)" componentmode="InABox" id="29">
+   <BOUNDS type="Node" left="255" top="30225" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="255" top="30225" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Input Node" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Scene">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="27" srcpinname="Layer Out" dstnodeid="29" dstpinname="Input Node">
+   </LINK>
+   <NODE id="30" systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" hiddenwhenlocked="0" managers="">
+   <BOUNDS type="Node" left="270" top="300" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="270" top="300" width="480" height="480">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" pintype="Configuration" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" pintype="Configuration" values="Bang">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1" pintype="Output">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" pintype="Input" visible="-1" values="0">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" pintype="Input" visible="1" values="0">
+   </PIN>
+   <BOUNDS type="Window" left="0" top="0" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Pin Visibility" pintype="Configuration" slicecount="1" values="True">
+   </PIN>
+   <PIN pinname="SliceCount Mode" pintype="Configuration" slicecount="1" values="Input">
+   </PIN>
+   <PIN pinname="Columns" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Rows" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Pages" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Show SliceIndex" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Font" pintype="Configuration" slicecount="1" values="|Lucida Sans Unicode|">
+   </PIN>
+   <PIN pinname="Size" pintype="Configuration" slicecount="1" values="7">
+   </PIN>
+   <PIN pinname="Show Grid" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Precision" pintype="Configuration" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Vector Size" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Minimum" pintype="Configuration" slicecount="1" values="-99999999">
+   </PIN>
+   <PIN pinname="Maximum" pintype="Configuration" slicecount="1" values="99999999">
+   </PIN>
+   <PIN pinname="Default" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Units" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Show Value" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Show Slider" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Slider Behavior" pintype="Configuration" slicecount="1" values="Endless">
+   </PIN>
+   <PIN pinname="Show Connections" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Show Background" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Sticky Slider" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Allow MouseOffset" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Slider Constraints" pintype="Configuration" slicecount="1" values="scX">
+   </PIN>
+   <PIN pinname="Slider Alignment" pintype="Configuration" slicecount="1" values="Grid">
+   </PIN>
+   <PIN pinname="SliceOffset" pintype="Input" visible="-1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="X Output Value" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="Changed" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <NODE systemname="S (Value)" nodename="S (Value)" componentmode="Hidden" id="31">
+   <BOUNDS type="Node" left="285" top="975" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   <PIN pinname="Send String" slicecount="1" values="Reload">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="30" srcpinname="Y Output Value" dstnodeid="31" dstpinname="Input Value">
+   </LINK>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="33">
+   <BOUNDS type="Node" left="6225" top="5070" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="SceneObject" filename="%VVVV%\projects\zoomer\subpatches\SceneObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\SceneObject.v4p" componentmode="Hidden" id="43">
+   <BOUNDS type="Node" left="5880" top="6345" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="ZoomIndex" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Filename" visible="1" slicecount="1" values="..\models\arena.dae">
+   </PIN>
+   <PIN pinname="PositionPath" visible="1" slicecount="1" values="models\0\item_00_position.txt">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1" slicecount="1" values="models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Reload" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <BOUNDS type="Box" left="5880" top="6345">
+   </BOUNDS>
+   <BOUNDS type="Window" left="8430" top="705" width="12585" height="13290">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Y Output Value" dstnodeid="43" dstpinname="ZoomIndex">
+   </LINK>
+   <LINK srcnodeid="7" srcpinname="Output String" dstnodeid="43" dstpinname="InfoPath">
+   </LINK>
+   <LINK srcnodeid="33" srcpinname="Input Value" dstnodeid="43" dstpinname="Reload">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Output String" dstnodeid="43" dstpinname="Filename">
+   </LINK>
+   <NODE systemname="SceneObjectTextured" filename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" nodename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" componentmode="InAWindow" id="44">
+   <BOUNDS type="Node" left="375" top="1995" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\models\00-scalering-1pm.dae">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <BOUNDS type="Box" left="375" top="1995">
+   </BOUNDS>
+   <BOUNDS type="Window" left="915" top="1140" width="12585" height="13290">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="46">
+   <BOUNDS type="Node" left="1200" top="1650" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="46" srcpinname="Input Value" dstnodeid="44" dstpinname="Reload">
+   </LINK>
+   <NODE systemname="SceneObjectTextured" filename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" nodename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" componentmode="Hidden" id="48">
+   <BOUNDS type="Node" left="510" top="2730" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\models\01-scalering-10pm.dae">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" values="1">
+   </PIN>
+   <BOUNDS type="Box" left="510" top="2730">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="47">
+   <BOUNDS type="Node" left="1305" top="2385" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="47" srcpinname="Input Value" dstnodeid="48" dstpinname="Reload">
+   </LINK>
+   <LINK srcnodeid="44" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 1" linkstyle="PolyLine">
+   </LINK>
+   <LINK srcnodeid="48" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 2" linkstyle="PolyLine">
+   </LINK>
+   <NODE systemname="SceneObjectTextured" filename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" nodename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" componentmode="Hidden" id="70">
+   <BOUNDS type="Node" left="690" top="3465" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\models\02-scalering-1a.dae">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" values="2">
+   </PIN>
+   <BOUNDS type="Box" left="690" top="3465">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="69">
+   <BOUNDS type="Node" left="1485" top="3120" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="69" srcpinname="Input Value" dstnodeid="70" dstpinname="Reload">
+   </LINK>
+   <LINK srcnodeid="70" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 3" linkstyle="PolyLine">
+   </LINK>
+   <NODE systemname="SceneObjectTextured" filename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" nodename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" componentmode="Hidden" id="72">
+   <BOUNDS type="Node" left="840" top="4170" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\models\03-scalering-1nm.dae">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" values="3">
+   </PIN>
+   <BOUNDS type="Box" left="840" top="4170">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="71">
+   <BOUNDS type="Node" left="1635" top="3825" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="71" srcpinname="Input Value" dstnodeid="72" dstpinname="Reload">
+   </LINK>
+   <LINK srcnodeid="72" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 4" linkstyle="PolyLine">
+   </LINK>
+   <NODE systemname="SceneObjectTextured" filename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" nodename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" componentmode="Hidden" id="74">
+   <BOUNDS type="Node" left="1005" top="4965" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\models\04-scalering-10nm.dae">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" values="4">
+   </PIN>
+   <BOUNDS type="Box" left="1005" top="4965">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="73">
+   <BOUNDS type="Node" left="1800" top="4620" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="73" srcpinname="Input Value" dstnodeid="74" dstpinname="Reload">
+   </LINK>
+   <NODE systemname="SceneObjectTextured" filename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" nodename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" componentmode="Hidden" id="76">
+   <BOUNDS type="Node" left="1155" top="5655" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\models\05-scalering-100nm.dae">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" values="5">
+   </PIN>
+   <BOUNDS type="Box" left="1155" top="5655">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="75">
+   <BOUNDS type="Node" left="1950" top="5310" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="75" srcpinname="Input Value" dstnodeid="76" dstpinname="Reload">
+   </LINK>
+   <LINK srcnodeid="74" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 5" linkstyle="PolyLine">
+   </LINK>
+   <LINK srcnodeid="76" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 6" linkstyle="PolyLine">
+   </LINK>
+   <NODE systemname="SceneObjectTextured" filename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" nodename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" componentmode="Hidden" id="78">
+   <BOUNDS type="Node" left="1320" top="6360" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\models\06-scalering-1um.dae">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" values="6">
+   </PIN>
+   <BOUNDS type="Box" left="1320" top="6360">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="77">
+   <BOUNDS type="Node" left="2115" top="6015" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="77" srcpinname="Input Value" dstnodeid="78" dstpinname="Reload">
+   </LINK>
+   <LINK srcnodeid="78" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 7" linkstyle="PolyLine">
+   </LINK>
+   <NODE systemname="SceneObjectTextured" filename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" nodename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" componentmode="Hidden" id="84">
+   <BOUNDS type="Node" left="1455" top="7125" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\models\07-scalering-10um.dae">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" values="7">
+   </PIN>
+   <BOUNDS type="Box" left="1455" top="7125">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="83">
+   <BOUNDS type="Node" left="2250" top="6780" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="83" srcpinname="Input Value" dstnodeid="84" dstpinname="Reload">
+   </LINK>
+   <NODE systemname="SceneObjectTextured" filename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" nodename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" componentmode="Hidden" id="82">
+   <BOUNDS type="Node" left="1605" top="7815" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\models\08-scalering-100um.dae">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" values="8">
+   </PIN>
+   <BOUNDS type="Box" left="1605" top="7815">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="81">
+   <BOUNDS type="Node" left="2400" top="7470" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="81" srcpinname="Input Value" dstnodeid="82" dstpinname="Reload">
+   </LINK>
+   <NODE systemname="SceneObjectTextured" filename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" nodename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" componentmode="Hidden" id="80">
+   <BOUNDS type="Node" left="1770" top="8520" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\models\09-scalering-1mm.dae">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" values="9">
+   </PIN>
+   <BOUNDS type="Box" left="1770" top="8520">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="79">
+   <BOUNDS type="Node" left="2565" top="8175" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="79" srcpinname="Input Value" dstnodeid="80" dstpinname="Reload">
+   </LINK>
+   <LINK srcnodeid="84" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 8" linkstyle="PolyLine">
+   </LINK>
+   <LINK srcnodeid="82" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 9" linkstyle="PolyLine">
+   </LINK>
+   <LINK srcnodeid="80" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 10" linkstyle="PolyLine">
+   </LINK>
+   <NODE systemname="SceneObjectTextured" filename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" nodename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" componentmode="Hidden" id="86">
+   <BOUNDS type="Node" left="1905" top="9210" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\models\10-scalering-1cm.dae">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" values="10">
+   </PIN>
+   <BOUNDS type="Box" left="1905" top="9210">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="85">
+   <BOUNDS type="Node" left="2700" top="8865" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="85" srcpinname="Input Value" dstnodeid="86" dstpinname="Reload">
+   </LINK>
+   <LINK srcnodeid="86" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 11" linkstyle="PolyLine">
+   </LINK>
+   <NODE systemname="SceneObjectTextured" filename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" nodename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" componentmode="Hidden" id="88">
+   <BOUNDS type="Node" left="2070" top="9915" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\models\11-scalering-10cm.dae">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" values="11">
+   </PIN>
+   <BOUNDS type="Box" left="2070" top="9915">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="87">
+   <BOUNDS type="Node" left="2865" top="9570" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="87" srcpinname="Input Value" dstnodeid="88" dstpinname="Reload">
+   </LINK>
+   <NODE systemname="SceneObjectTextured" filename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" nodename="%VVVV%\projects\zoomer\subpatches\SceneObjectTextured.v4p" componentmode="Hidden" id="90">
+   <BOUNDS type="Node" left="2220" top="10680" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\models\12-scalering-1m.dae">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" values="12">
+   </PIN>
+   <BOUNDS type="Box" left="2220" top="10680">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="89">
+   <BOUNDS type="Node" left="3015" top="10335" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="89" srcpinname="Input Value" dstnodeid="90" dstpinname="Reload">
+   </LINK>
+   <LINK srcnodeid="88" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 12" linkstyle="PolyLine">
+   </LINK>
+   <LINK srcnodeid="90" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 13" linkstyle="PolyLine">
+   </LINK>
+   <INFO author="" description="" tags="">
+   </INFO>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="116">
+   <BOUNDS type="Node" left="81180" top="3390" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   <PIN pinname="ScaleXYZ" slicecount="3" values="0.5,0.5,0.5">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="117">
+   <BOUNDS type="Node" left="81600" top="1485" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="117" srcpinname="Input Value" dstnodeid="116" dstpinname="Reload">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="118">
+   <BOUNDS type="Node" left="82800" top="3000" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="82800" top="3000" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="11">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="118" srcpinname="Y Output Value" dstnodeid="116" dstpinname="ZoomIndex">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="119">
+   <BOUNDS type="Box" left="81180" top="1005" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="81180" top="1005" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\textures\zebrafish-and-human1.tif">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="119" srcpinname="Output String" dstnodeid="116" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="120">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="1.8">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="81990" top="1890" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="120" srcpinname="XYZ" dstnodeid="116" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="121">
+   <BOUNDS type="Box" left="82395" top="2310" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="82395" top="2310" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="121" srcpinname="Output String" dstnodeid="116" dstpinname="InfoPath">
+   </LINK>
+   <LINK srcnodeid="116" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 14" linkstyle="Bezier">
+   <LINKPOINT x="52945" y="16258">
+   </LINKPOINT>
+   <LINKPOINT x="30665" y="17163">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="43" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 15" linkstyle="Bezier">
+   <LINKPOINT x="2810" y="17788">
+   </LINKPOINT>
+   <LINKPOINT x="5650" y="18588">
+   </LINKPOINT>
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="127">
+   <BOUNDS type="Node" left="28890" top="2940" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="126">
+   <BOUNDS type="Node" left="29310" top="1035" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="126" srcpinname="Input Value" dstnodeid="127" dstpinname="Reload">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="125">
+   <BOUNDS type="Node" left="30510" top="2550" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="30510" top="2550" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="6">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="125" srcpinname="Y Output Value" dstnodeid="127" dstpinname="ZoomIndex">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="124">
+   <BOUNDS type="Box" left="28890" top="555" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="28890" top="555" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="|..\textures\06_lactic acid bacteria_10 micrometer.tif|">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="124" srcpinname="Output String" dstnodeid="127" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="123">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="1.8">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="29700" top="1440" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="123" srcpinname="XYZ" dstnodeid="127" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="122">
+   <BOUNDS type="Box" left="30105" top="1860" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="30105" top="1860" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="122" srcpinname="Output String" dstnodeid="127" dstpinname="InfoPath">
+   </LINK>
+   <LINK srcnodeid="127" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 16" linkstyle="Bezier">
+   <LINKPOINT x="20375" y="16008">
+   </LINKPOINT>
+   <LINKPOINT x="11245" y="16963">
+   </LINKPOINT>
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="133">
+   <BOUNDS type="Node" left="6420" top="9795" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   <PIN pinname="ScaleXYZ" slicecount="3" values="1,1,1">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="132">
+   <BOUNDS type="Node" left="6840" top="7890" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="132" srcpinname="Input Value" dstnodeid="133" dstpinname="Reload">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="131">
+   <BOUNDS type="Node" left="8040" top="9405" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="8040" top="9405" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="2">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="131" srcpinname="Y Output Value" dstnodeid="133" dstpinname="ZoomIndex">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="130">
+   <BOUNDS type="Box" left="6420" top="7410" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="6420" top="7410" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\textures\02_glutamic_acid.tif">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="130" srcpinname="Output String" dstnodeid="133" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="129">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="3.6">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="7230" top="8295" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="129" srcpinname="XYZ" dstnodeid="133" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="128">
+   <BOUNDS type="Box" left="7635" top="8715" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="7635" top="8715" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="128" srcpinname="Output String" dstnodeid="133" dstpinname="InfoPath">
+   </LINK>
+   <LINK srcnodeid="133" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 17" linkstyle="Bezier">
+   <LINKPOINT x="3350" y="19513">
+   </LINKPOINT>
+   <LINKPOINT x="5950" y="20313">
+   </LINKPOINT>
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="139">
+   <BOUNDS type="Node" left="12840" top="3165" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="138">
+   <BOUNDS type="Node" left="13260" top="1260" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="138" srcpinname="Input Value" dstnodeid="139" dstpinname="Reload">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="137">
+   <BOUNDS type="Node" left="14460" top="2775" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="14460" top="2775" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="137" srcpinname="Y Output Value" dstnodeid="139" dstpinname="ZoomIndex">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="136">
+   <BOUNDS type="Box" left="12840" top="780" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="12840" top="780" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\textures\04_protein_50A.tif">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="136" srcpinname="Output String" dstnodeid="139" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="135">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="1.8">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="13650" top="1665" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="135" srcpinname="XYZ" dstnodeid="139" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="134">
+   <BOUNDS type="Box" left="14055" top="2085" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="14055" top="2085" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="134" srcpinname="Output String" dstnodeid="139" dstpinname="InfoPath">
+   </LINK>
+   <LINK srcnodeid="139" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 18" linkstyle="Bezier">
+   <LINKPOINT x="9735" y="15400">
+   </LINKPOINT>
+   <LINKPOINT x="6135" y="17795">
+   </LINKPOINT>
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="145">
+   <BOUNDS type="Node" left="18300" top="2940" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="144">
+   <BOUNDS type="Node" left="18720" top="1035" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="144" srcpinname="Input Value" dstnodeid="145" dstpinname="Reload">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="143">
+   <BOUNDS type="Node" left="19920" top="2460" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="19920" top="2460" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="5">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="143" srcpinname="Y Output Value" dstnodeid="145" dstpinname="ZoomIndex">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="142">
+   <BOUNDS type="Box" left="18300" top="555" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="18300" top="555" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\textures\05_collagen_300nano.tif">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="142" srcpinname="Output String" dstnodeid="145" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="141">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="3.6">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="19110" top="1440" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="141" srcpinname="XYZ" dstnodeid="145" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="140">
+   <BOUNDS type="Box" left="19515" top="1860" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="19515" top="1860" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="140" srcpinname="Output String" dstnodeid="145" dstpinname="InfoPath">
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="151">
+   <BOUNDS type="Node" left="23655" top="2970" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="150">
+   <BOUNDS type="Node" left="24075" top="1065" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="150" srcpinname="Input Value" dstnodeid="151" dstpinname="Reload">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="149">
+   <BOUNDS type="Node" left="25275" top="2580" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="25275" top="2580" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="5">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="149" srcpinname="Y Output Value" dstnodeid="151" dstpinname="ZoomIndex">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="148">
+   <BOUNDS type="Box" left="23655" top="585" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="23655" top="585" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\textures\05_Influenza_virus_lrg.tif">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="148" srcpinname="Output String" dstnodeid="151" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="147">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="1.8">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="24465" top="1470" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="147" srcpinname="XYZ" dstnodeid="151" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="146">
+   <BOUNDS type="Box" left="24870" top="1890" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="24870" top="1890" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="146" srcpinname="Output String" dstnodeid="151" dstpinname="InfoPath">
+   </LINK>
+   <LINK srcnodeid="151" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 20" linkstyle="Bezier">
+   <LINKPOINT x="18850" y="16058">
+   </LINKPOINT>
+   <LINKPOINT x="8150" y="16943">
+   </LINKPOINT>
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="157">
+   <BOUNDS type="Node" left="34080" top="2925" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="156">
+   <BOUNDS type="Node" left="34500" top="1020" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="156" srcpinname="Input Value" dstnodeid="157" dstpinname="Reload">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="155">
+   <BOUNDS type="Node" left="35700" top="2535" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="35700" top="2535" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="6">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="155" srcpinname="Y Output Value" dstnodeid="157" dstpinname="ZoomIndex">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="154">
+   <BOUNDS type="Box" left="34080" top="540" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="34080" top="540" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\textures\06_Mitachondria_1micrometer.tif">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="154" srcpinname="Output String" dstnodeid="157" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="153">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="1.8">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="34890" top="1425" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="153" srcpinname="XYZ" dstnodeid="157" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="152">
+   <BOUNDS type="Box" left="35295" top="1845" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="35295" top="1845" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="152" srcpinname="Output String" dstnodeid="157" dstpinname="InfoPath">
+   </LINK>
+   <LINK srcnodeid="157" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 21" linkstyle="Bezier">
+   <LINKPOINT x="22755" y="14353">
+   </LINKPOINT>
+   <LINKPOINT x="14820" y="18603">
+   </LINKPOINT>
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="163">
+   <BOUNDS type="Node" left="39285" top="3030" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   <PIN pinname="ScaleXYZ" slicecount="3" values="6,6,6">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="162">
+   <BOUNDS type="Node" left="39705" top="1125" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="162" srcpinname="Input Value" dstnodeid="163" dstpinname="Reload">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="161">
+   <BOUNDS type="Node" left="40905" top="2640" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="40905" top="2640" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="7">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="161" srcpinname="Y Output Value" dstnodeid="163" dstpinname="ZoomIndex">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="160">
+   <BOUNDS type="Box" left="39285" top="645" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="39285" top="645" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="|..\textures\07_sperm cell_60 micrometer.tif|">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="160" srcpinname="Output String" dstnodeid="163" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="159">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="6">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="40095" top="1530" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="159" srcpinname="XYZ" dstnodeid="163" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="158">
+   <BOUNDS type="Box" left="40500" top="1950" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="40500" top="1950" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="158" srcpinname="Output String" dstnodeid="163" dstpinname="InfoPath">
+   </LINK>
+   <LINK srcnodeid="163" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 22" linkstyle="Bezier">
+   <LINKPOINT x="28225" y="14458">
+   </LINKPOINT>
+   <LINKPOINT x="14705" y="18603">
+   </LINKPOINT>
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="169">
+   <BOUNDS type="Node" left="44415" top="2970" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="168">
+   <BOUNDS type="Node" left="44835" top="1065" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="168" srcpinname="Input Value" dstnodeid="169" dstpinname="Reload">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="167">
+   <BOUNDS type="Node" left="46035" top="2580" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="46035" top="2580" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="7">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="167" srcpinname="Y Output Value" dstnodeid="169" dstpinname="ZoomIndex">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="166">
+   <BOUNDS type="Box" left="44415" top="585" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="44415" top="585" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="|..\textures\07_white blood cell_ 6-20 micrometer.tif|">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="166" srcpinname="Output String" dstnodeid="169" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="165">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="1.8">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="45225" top="1470" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="165" srcpinname="XYZ" dstnodeid="169" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="164">
+   <BOUNDS type="Box" left="45630" top="1890" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="45630" top="1890" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="164" srcpinname="Output String" dstnodeid="169" dstpinname="InfoPath">
+   </LINK>
+   <LINK srcnodeid="169" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 23" linkstyle="Bezier">
+   <LINKPOINT x="30880" y="13745">
+   </LINKPOINT>
+   <LINKPOINT x="17330" y="19255">
+   </LINKPOINT>
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="174">
+   <BOUNDS type="Node" left="51345" top="3405" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   <PIN pinname="ScaleXYZ" slicecount="3" values="2,2,2">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="173">
+   <BOUNDS type="Node" left="51765" top="1500" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="173" srcpinname="Input Value" dstnodeid="174" dstpinname="Reload">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="172">
+   <BOUNDS type="Box" left="51345" top="1020" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="51345" top="1020" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="|..\textures\08_mite_1 milimeter.tif|">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="172" srcpinname="Output String" dstnodeid="174" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="171">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="3.6">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="52155" top="1905" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="171" srcpinname="XYZ" dstnodeid="174" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="170">
+   <BOUNDS type="Box" left="52560" top="2325" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="52560" top="2325" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="170" srcpinname="Output String" dstnodeid="174" dstpinname="InfoPath">
+   </LINK>
+   <LINK srcnodeid="174" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 24" linkstyle="Bezier">
+   <LINKPOINT x="35040" y="13305">
+   </LINKPOINT>
+   <LINKPOINT x="20265" y="20130">
+   </LINKPOINT>
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="179">
+   <BOUNDS type="Node" left="56415" top="3375" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   <PIN pinname="ScaleXYZ" slicecount="3" values="3,3,3">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="178">
+   <BOUNDS type="Node" left="56835" top="1470" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="178" srcpinname="Input Value" dstnodeid="179" dstpinname="Reload">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="177">
+   <BOUNDS type="Box" left="56415" top="990" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="56415" top="990" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="|..\textures\09_sesame seed_ 3mm.tif|">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="177" srcpinname="Output String" dstnodeid="179" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="176">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="3.6">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="57225" top="1875" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="176" srcpinname="XYZ" dstnodeid="179" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="175">
+   <BOUNDS type="Box" left="57630" top="2295" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="57630" top="2295" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="175" srcpinname="Output String" dstnodeid="179" dstpinname="InfoPath">
+   </LINK>
+   <LINK srcnodeid="179" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 25" linkstyle="Bezier">
+   <LINKPOINT x="40135" y="13313">
+   </LINKPOINT>
+   <LINKPOINT x="20390" y="20093">
+   </LINKPOINT>
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="180">
+   <BOUNDS type="Node" left="52980" top="2925" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="52980" top="2925" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="8">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="180" srcpinname="Y Output Value" dstnodeid="174" dstpinname="ZoomIndex">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="181">
+   <BOUNDS type="Node" left="58035" top="2955" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="58035" top="2955" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="9">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="181" srcpinname="Y Output Value" dstnodeid="179" dstpinname="ZoomIndex">
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="200">
+   <BOUNDS type="Node" left="61800" top="3270" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="199">
+   <BOUNDS type="Node" left="62220" top="1365" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="199" srcpinname="Input Value" dstnodeid="200" dstpinname="Reload">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="198">
+   <BOUNDS type="Box" left="61800" top="885" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="61800" top="885" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="|..\textures\10_bee_1 cm.tif|">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="198" srcpinname="Output String" dstnodeid="200" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="197">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="1.8">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="62610" top="1770" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="197" srcpinname="XYZ" dstnodeid="200" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="196">
+   <BOUNDS type="Box" left="63015" top="2190" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="63015" top="2190" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="196" srcpinname="Output String" dstnodeid="200" dstpinname="InfoPath">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="195">
+   <BOUNDS type="Node" left="63420" top="2850" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="63420" top="2850" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="10">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="195" srcpinname="Y Output Value" dstnodeid="200" dstpinname="ZoomIndex">
+   </LINK>
+   <LINK srcnodeid="200" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 27" linkstyle="Bezier">
+   <LINKPOINT x="44920" y="12785">
+   </LINKPOINT>
+   <LINKPOINT x="21305" y="20485">
+   </LINKPOINT>
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="206">
+   <BOUNDS type="Node" left="72525" top="3345" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="205">
+   <BOUNDS type="Node" left="72945" top="1440" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="205" srcpinname="Input Value" dstnodeid="206" dstpinname="Reload">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="204">
+   <BOUNDS type="Box" left="72525" top="960" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="72525" top="960" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\textures\10_mouse_6-10cm.tif">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="204" srcpinname="Output String" dstnodeid="206" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="203">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="3.6">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="73335" top="1845" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="203" srcpinname="XYZ" dstnodeid="206" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="202">
+   <BOUNDS type="Box" left="73740" top="2265" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="73740" top="2265" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="202" srcpinname="Output String" dstnodeid="206" dstpinname="InfoPath">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="201">
+   <BOUNDS type="Node" left="74145" top="2925" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="74145" top="2925" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="11">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="201" srcpinname="Y Output Value" dstnodeid="206" dstpinname="ZoomIndex">
+   </LINK>
+   <LINK srcnodeid="206" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 28">
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="212">
+   <BOUNDS type="Node" left="67275" top="3330" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   <PIN pinname="ScaleXYZ" slicecount="3" values="3.2,3.2,3.2">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="211">
+   <BOUNDS type="Node" left="67695" top="1425" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="211" srcpinname="Input Value" dstnodeid="212" dstpinname="Reload">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="210">
+   <BOUNDS type="Box" left="67275" top="945" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="67275" top="945" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="|..\textures\10_SD memory card_3.2cm.tif|">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="210" srcpinname="Output String" dstnodeid="212" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="209">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="6">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="68085" top="1830" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="209" srcpinname="XYZ" dstnodeid="212" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="208">
+   <BOUNDS type="Box" left="68490" top="2250" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="68490" top="2250" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="208" srcpinname="Output String" dstnodeid="212" dstpinname="InfoPath">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="207">
+   <BOUNDS type="Node" left="68895" top="2910" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="68895" top="2910" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="10">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="207" srcpinname="Y Output Value" dstnodeid="212" dstpinname="ZoomIndex">
+   </LINK>
+   <LINK srcnodeid="212" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 29">
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="218">
+   <BOUNDS type="Node" left="86430" top="3585" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   <PIN pinname="ScaleXYZ" slicecount="3" values="0.55,0.55,0.55">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="217">
+   <BOUNDS type="Node" left="86850" top="1680" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="217" srcpinname="Input Value" dstnodeid="218" dstpinname="Reload">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="216">
+   <BOUNDS type="Box" left="86430" top="1200" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="86430" top="1200" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\textures\12_rabbit_PNG3779.tif">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="216" srcpinname="Output String" dstnodeid="218" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="215">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="1.8">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="87240" top="2085" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="215" srcpinname="XYZ" dstnodeid="218" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="214">
+   <BOUNDS type="Box" left="87645" top="2505" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="87645" top="2505" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="214" srcpinname="Output String" dstnodeid="218" dstpinname="InfoPath">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="213">
+   <BOUNDS type="Node" left="88050" top="3165" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="88050" top="3165" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="12">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="213" srcpinname="Y Output Value" dstnodeid="218" dstpinname="ZoomIndex">
+   </LINK>
+   <LINK srcnodeid="218" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 31">
+   </LINK>
+   <NODE systemname="QuadObject" filename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" nodename="%VVVV%\projects\zoomer\subpatches\QuadObject.v4p" componentmode="Hidden" id="225">
+   <BOUNDS type="Node" left="10350" top="32100" width="1695" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="ZoomIndex" slicecount="1" visible="1" values="3">
+   </PIN>
+   <PIN pinname="Reload" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   <PIN pinname="InfoPath" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="224">
+   <BOUNDS type="Node" left="10770" top="30195" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="Reload">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="224" srcpinname="Input Value" dstnodeid="225" dstpinname="Reload">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="223">
+   <BOUNDS type="Box" left="10350" top="29715" width="3660" height="285">
+   </BOUNDS>
+   <BOUNDS type="Node" left="10350" top="29715" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\textures\01_carbon_attom.tif">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="223" srcpinname="Output String" dstnodeid="225" dstpinname="Filename">
+   </LINK>
+   <NODE nodename="Vector (3D Join)" id="222">
+   <PIN pinname="X" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y" slicecount="1" values="1.8">
+   </PIN>
+   <PIN pinname="Z" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS type="Node" left="11160" top="30600" width="0" height="0">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="222" srcpinname="XYZ" dstnodeid="225" dstpinname="Position XYZ">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="221">
+   <BOUNDS type="Box" left="11565" top="31020" width="3675" height="345">
+   </BOUNDS>
+   <BOUNDS type="Node" left="11565" top="31020" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="..\models\0\item_00_info.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="file.txt">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Text Formats (*.csv, *.dtd, *.html, *.txt, *.xml)||*.csv;*.dtd;*.html;*.htm;*.txt;*.xml||Text (*.txt)||*.txt||XML (*.xml)||*.xml||CSV (*.csv)||*.csv||DTD (*.dtd)||*.dtd||HTML (*.html, *.htm)||*.html;*.htm|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="221" srcpinname="Output String" dstnodeid="225" dstpinname="InfoPath">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="220">
+   <BOUNDS type="Node" left="11985" top="31620" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="11985" top="31620" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="ZoomLevel">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="220" srcpinname="Y Output Value" dstnodeid="225" dstpinname="ZoomIndex">
+   </LINK>
+   <LINK srcnodeid="225" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 33">
+   </LINK>
+   </PATCH>

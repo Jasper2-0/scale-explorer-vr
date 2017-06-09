@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" Version="0.49">
+  <p:NodeReference>
+    <Choice Kind="Document" />
+  </p:NodeReference>
+  <p:Info Authors="vvvv group">
+    <p:LicenseUrl>https://www.gnu.org/licenses/lgpl.html</p:LicenseUrl>
+    <p:ProjectUrl>http://vvvv.org/</p:ProjectUrl>
+  </p:Info>
+  <NugetDependency Id="RKFCmk1Lg5EP3I4IQegLTw" Location="VL.CoreLib" Version="0.35.21" />
+  <NugetDependency Id="U2JwHqMJLyGLDs97lM6eZ6" Location="VL.CoreLib.VVVV" Version="0.35.21" />
+  <NugetDependency Id="Q18ZLENm9gzPhBnFnztPMP" Location="VL.Core" Version="0.35.21" />
+  <Patch Id="Th8hpfHvBF4Lk6VOwDCc9D">
+    <Canvas Id="NtZT52Xp5qNOXK0fF2H7kv" DefaultCategory="VVVV.Vehicle">
+      <!--
+
+    ************************ SimpleVehicle ************************
+
+-->
+      <Node Name="SimpleVehicle" Bounds="153,200" Id="TSttkfeJHQSN5gkEF54G9o">
+        <p:NodeReference>
+          <Choice Kind="ClassDefinition" Name="Class" />
+        </p:NodeReference>
+        <p:Info Summary="Basic stateful template with one in/out" />
+        <Patch Id="CzjSvRY5dvXQDxmAOA8mZj">
+          <Patch Id="ESJZDDS0I02LAWDOx9RJVV" Name="Create" />
+          <Patch Id="OkqGvJfa3PDOppp4PFQghD" Name="Update">
+            <Pin Id="SDxyOtpShoyLdMoEKf95FP" Name="Position" Kind="OutputPin" Bounds="255,680" />
+            <Pin Id="PIa8R6FX7TsN8dLpLsKJps" Name="Center" Kind="InputPin" Bounds="361,374" />
+            <Pin Id="FtdAbum2nABLcF0auuYk7u" Name="Width" Kind="InputPin" Bounds="429,379" />
+            <Pin Id="V1WP8CyN9aPQBTwrBAdhUt" Name="Acceleration" Kind="InputPin" Bounds="529,371" />
+            <Pin Id="KbgVC3WvA61Lgza6aMBZZd" Name="Velocity" Kind="OutputPin" Bounds="351,494" />
+            <Pin Id="J3ql3J9Z27FQBK4qdC4QSU" Name="Acceleration" Kind="OutputPin" Bounds="452,484" />
+          </Patch>
+          <Canvas Id="C4yd3S6BFv9NWqJ2WO3OFi" Position="153,200">
+            <Node Bounds="296,427,103,13" Id="A6eUaDAWLXZP4OxM2c6k2g">
+              <p:NodeReference LastCategoryFullName="VVVV.Vehicle" LastSymbolSource="VVVV.Vehicle.SimpleVehicle.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="SimpleVehicleCC" />
+              </p:NodeReference>
+              <Pin Id="Ls97lHjDI2fMbODZWvvvi2" Name="Center" Kind="InputPin" />
+              <Pin Id="SlQ9Ah2JSKfPd1KqmV6Nrl" Name="Width" Kind="InputPin" />
+              <Pin Id="MxCqWf5JtwHNIl66rfcLkF" Name="Acceleration" Kind="InputPin" />
+              <Pin Id="MXDYVptcKpfMmgqTGkRd4Q" Name="Position" Kind="OutputPin" />
+              <Pin Id="AgPF7SM3ljuOz2kLoMNDxt" Name="Velocity" Kind="OutputPin" />
+              <Pin Id="V32EtywsnAOPyeqUmFeuHK" Name="Acceleration" Kind="OutputPin" />
+            </Node>
+            <ControlPoint Id="Q8NZzG6K4npNauIHv4AI8d" Bounds="294,491" />
+            <ControlPoint Id="N39XlTJmUyXPlKAALWlOop" Bounds="347,374" />
+            <ControlPoint Id="BT3On5pCA2bOrxlNGANVoJ" Bounds="398,374" />
+            <ControlPoint Id="UakcrhymKfONZknRfxq8Tx" Bounds="529,371" />
+            <ControlPoint Id="OApyv5OSrXXPVwJAfONMQE" Bounds="354,490" />
+            <ControlPoint Id="LDGh18OIv4iOFCfMyDptcb" Bounds="419,492" />
+          </Canvas>
+          <ProcessDefinition Id="FHNLl8GWgcVOJzRkkPI83E">
+            <Fragment Id="MRFnVwHDf0WOO7H3jKbCxI" Patch="ESJZDDS0I02LAWDOx9RJVV" Enabled="true" />
+            <Fragment Id="PulIQZQ5YLtPp6C2yvbTNE" Patch="OkqGvJfa3PDOppp4PFQghD" Enabled="true" />
+            <Fragment Id="EWmEXlWAVF7Ny5ffE1hz8A" Patch="KE4BshhsGRHLVAw3s7yLal" Enabled="true" />
+          </ProcessDefinition>
+          <Link Id="OnwgBDdPC52QHlxCWTGVw6" Ids="MXDYVptcKpfMmgqTGkRd4Q,Q8NZzG6K4npNauIHv4AI8d" />
+          <Link Id="Aelrtx7s1KVOZRxqMrhQ6E" Ids="Q8NZzG6K4npNauIHv4AI8d,SDxyOtpShoyLdMoEKf95FP" IsHidden="true" />
+          <Link Id="LKuvwIm7TtGPtjgS6kbQwi" Ids="N39XlTJmUyXPlKAALWlOop,Ls97lHjDI2fMbODZWvvvi2" />
+          <Link Id="POJnerDKSe0M1LyLs4640s" Ids="PIa8R6FX7TsN8dLpLsKJps,N39XlTJmUyXPlKAALWlOop" IsHidden="true" />
+          <Link Id="K8Dw9PcYAtDM5xzyjM9U6k" Ids="BT3On5pCA2bOrxlNGANVoJ,SlQ9Ah2JSKfPd1KqmV6Nrl" />
+          <Link Id="BAs5OyK4UmlMxJ5d5ix7z4" Ids="FtdAbum2nABLcF0auuYk7u,BT3On5pCA2bOrxlNGANVoJ" IsHidden="true" />
+          <Patch Id="KE4BshhsGRHLVAw3s7yLal" Name="Test" />
+          <Link Id="KP2l43pbGstNeKTGkkeWLg" Ids="UakcrhymKfONZknRfxq8Tx,MxCqWf5JtwHNIl66rfcLkF" />
+          <Link Id="KL4XIYHtoAiLIiVwBZ5Utn" Ids="V1WP8CyN9aPQBTwrBAdhUt,UakcrhymKfONZknRfxq8Tx" IsHidden="true" />
+          <Link Id="SMIgr1duEXfLO5Njfq288Q" Ids="AgPF7SM3ljuOz2kLoMNDxt,OApyv5OSrXXPVwJAfONMQE" />
+          <Link Id="D5IA7AMWuHOMJAvwauWjdl" Ids="OApyv5OSrXXPVwJAfONMQE,KbgVC3WvA61Lgza6aMBZZd" IsHidden="true" />
+          <Link Id="FmOlPuNA2EiPTtk05Fsxmj" Ids="V32EtywsnAOPyeqUmFeuHK,LDGh18OIv4iOFCfMyDptcb" />
+          <Link Id="VU5QkF2SQcJPZ1vmIJtwKS" Ids="LDGh18OIv4iOFCfMyDptcb,J3ql3J9Z27FQBK4qdC4QSU" IsHidden="true" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ SimpleVehicleCC ************************
+
+-->
+      <Node Name="SimpleVehicleCC" Category="VVVV.Vehicle" Bounds="450,200" Id="F6D1GVov4hCMDq6gRAfhSb">
+        <p:NodeReference>
+          <Choice Kind="ContainerDefinition" Name="Patch" />
+        </p:NodeReference>
+        <Patch Id="FMWM3ftybPWPSyUgmBcXRQ" IsGeneric="true">
+          <Canvas Id="FFoQGUnsOQaMQ5L9SxJmzc">
+            <Pad Id="AqOT6MmWgrsNOdjTeSLQQm" SlotId="U7DW1WKb3EnOKRBUmrI5lH" Bounds="350,791" ShowValueBox="true">
+              <p:ValueBoxSettings />
+            </Pad>
+            <ControlPoint Id="OR2q01MiIllQNXZNvi77HK" Bounds="349,837" />
+            <ControlPoint Id="C1dpKUBrcGtN87PpKTvu34" Bounds="375,629" />
+            <ControlPoint Id="UNdiouUVvLDOx9Tenqa7qA" Bounds="425,629" />
+            <Node Bounds="374,653,54,13" Id="EFjlI2bNOIYM8Y5R6wj8ti">
+              <p:NodeReference LastCategoryFullName="Math.Ranges.Range" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="MasterPatchFlag, RecordType" Name="Range" />
+                <Choice Kind="OperationCallFlag" Name="Range (Join Center Width)" />
+              </p:NodeReference>
+              <Pin Id="DEmuc7tMlG1OvfyKHyAQyp" Name="Center" Kind="InputPin" />
+              <Pin Id="G2kecnx7CxLLMMUbsHTTVd" Name="Width" Kind="InputPin" />
+              <Pin Id="T2oJajxOMT9LsLOVtGL9zd" Name="Output" Kind="OutputPin" />
+            </Node>
+            <Node Bounds="374,687,46,22" Id="TOAbYE9Y23HPwaeFMCkGht">
+              <p:NodeReference LastCategoryFullName="Math.Ranges.Range" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="Split" />
+                <CategoryReference Kind="MasterPatchFlag, RecordType" Name="Range" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Pin Id="MCqBjFF8e0lP9XKKJQvqYR" Name="Input" Kind="StateInputPin" />
+              <Pin Id="MUAwXu2bYNyM5erkl1hseV" Name="From" Kind="OutputPin" />
+              <Pin Id="EcAqCAQ0dD9PlwM7mNkDeu" Name="To" Kind="OutputPin" />
+            </Node>
+            <Node Bounds="348,746,55,13" Id="IhN38TWtQ5bLhYkmgmBLtM">
+              <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="Clamp" />
+                <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Pin Id="UYeC3BfpmmwN2MfJugFJlM" Name="Input" Kind="StateInputPin" />
+              <Pin Id="TcVPf360evTNqplCfgPTSR" Name="Minimum" Kind="InputPin" />
+              <Pin Id="FyUiU4JTqK7PLqOGcb2UU0" Name="Maximum" Kind="InputPin" />
+              <Pin Id="BtEmPjuskDZLOOlOK1wFyc" Name="Output" Kind="OutputPin" />
+            </Node>
+            <ControlPoint Id="AWoNudmLP0GNDOThrYSs13" Bounds="411,521" />
+            <Pad Id="JWwaochL2ycNjhu4abAhDB" SlotId="UMSRG8SFeqlPsDx2zoelER" Bounds="475,318" ShowValueBox="true">
+              <p:ValueBoxSettings />
+            </Pad>
+            <ControlPoint Id="PjZEQOOA6NhLL5FeX7NvLl" Bounds="477,121" />
+            <ControlPoint Id="VSzTmNyiKXiLaKrZwntUjF" Bounds="473,383" />
+            <Node Bounds="520,515,25,13" Id="B4qbAHgZhtGN8qHuiFOvT4">
+              <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="SharpDX.Mathematics.dll" LastPackageId="SharpDX.Mathematics">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="*" />
+                <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Pin Id="DhHs2LwtIWYLTPVfBClqy9" Name="Input" Kind="InputPin" />
+              <Pin Id="MVDvGbEVJUPOjhZ9GIfwlk" Name="Input 2" Kind="InputPin" />
+              <Pin Id="LW7Vp2TKyXMOxaG1Ff5JV6" Name="Output" Kind="OutputPin" />
+            </Node>
+            <Pad Id="QgRh9DjgdA8N5YgwSSLjOJ" Comment="Reset Velocity" Bounds="543,489" ShowValueBox="true" isIOBox="true">
+              <p:ValueBoxSettings />
+              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="SharpDX.Mathematics.dll" LastPackageId="SharpDX.Mathematics" ReferenceKind="App">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+              </p:TypeAnnotation>
+            </Pad>
+            <Pad Id="OxG66zcqbuoM07GexdxWdh" SlotId="Bsg8IjV3SLhPeLKi5IYAp0" Bounds="522,558" ShowValueBox="true">
+              <p:ValueBoxSettings />
+            </Pad>
+            <Node Bounds="409,404,25,13" Id="CsraRD2QidANRBjhNqke8l">
+              <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="SharpDX.Mathematics.dll" LastPackageId="SharpDX.Mathematics">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="+" />
+                <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Pin Id="C1loWK5gGzJMzCORn1s8Ih" Name="Input" Kind="InputPin" />
+              <Pin Id="BsWUEbaZpZlNo4UJVZtLkg" Name="Input 2" Kind="InputPin" />
+              <Pin Id="QAAE3HlX9L4MKfv5WZOo34" Name="Output" Kind="OutputPin" />
+            </Node>
+            <Node Bounds="349,580,25,13" Id="T9bZxWJcrICLMBbLJuCTHi">
+              <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="SharpDX.Mathematics.dll" LastPackageId="SharpDX.Mathematics">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="+" />
+                <CategoryReference Kind="Category" Name="Adaptive" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Pin Id="R6417yAxpyTPfXpWMxPUn4" Name="Input" Kind="InputPin" />
+              <Pin Id="Qk64xU0PEC6Mt5PE0SEn8C" Name="Input 2" Kind="InputPin" />
+              <Pin Id="G9iGZfiSENbP39XqcOcNHd" Name="Output" Kind="OutputPin" />
+            </Node>
+            <Pad Id="HZomi5gVJ3fN2i9FNTEXt9" SlotId="U7DW1WKb3EnOKRBUmrI5lH" Bounds="358,210">
+              <p:ValueBoxSettings />
+            </Pad>
+            <Node Bounds="473,262,85,13" Id="CEeCbVyiyJlNiEMB8ElXWF">
+              <p:NodeReference LastCategoryFullName="Math.Ranges" LastSymbolSource="VL.CoreLib.vl" LastPackageId="VL.CoreLib">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="Map" />
+              </p:NodeReference>
+              <Pin Id="U8ow2idWGgSObsUnXEpGME" Name="Input" Kind="InputPin" />
+              <Pin Id="JEFCFKDUjVVOhxSHFoSPkl" Name="Input Minimum" Kind="InputPin" />
+              <Pin Id="DS87aJ4Mw76MZFmcMCcxar" Name="Input Maximum" Kind="InputPin" />
+              <Pin Id="CKFuXRcun0oO5OUX64TeAX" Name="Output Minimum" Kind="InputPin" />
+              <Pin Id="BdXUnhSZcUHOlH62ozhIhi" Name="Output Maximum" Kind="InputPin" />
+              <Pin Id="QaLLo8Dl37ZM5OjIp1FMlO" Name="Output" Kind="OutputPin" />
+            </Node>
+            <Pad Id="BKDEUZSknkQQLWq7xyh1Fj" Comment="Input Maximum" Bounds="598,146" ShowValueBox="true" isIOBox="true" Value="new vec(1.0,1.0)">
+              <p:ValueBoxSettings>
+                <p:horizontal p:Type="Boolean">true</p:horizontal>
+              </p:ValueBoxSettings>
+              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="SharpDX.Mathematics.dll" LastPackageId="SharpDX.Mathematics" ReferenceKind="App">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+                <CategoryReference Kind="Category" Name="2D" />
+              </p:TypeAnnotation>
+            </Pad>
+            <Pad Id="Kdj5jG6oWxsL1LTeMo2bhO" Comment="Input Minimum" Bounds="599,121" ShowValueBox="true" isIOBox="true" Value="new vec(-1.0,-1.0)">
+              <p:ValueBoxSettings>
+                <p:horizontal p:Type="Boolean">true</p:horizontal>
+              </p:ValueBoxSettings>
+              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="SharpDX.Mathematics.dll" LastPackageId="SharpDX.Mathematics" ReferenceKind="App">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+                <CategoryReference Kind="Category" Name="2D" />
+              </p:TypeAnnotation>
+            </Pad>
+            <Pad Id="GhIkZjP1sBqNz6YGV3JkAM" Comment="Minimum Acceleration" Bounds="597,177" ShowValueBox="true" isIOBox="true" Value="new vec(-0.02,-0.02)">
+              <p:ValueBoxSettings>
+                <p:horizontal p:Type="Boolean">true</p:horizontal>
+              </p:ValueBoxSettings>
+              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="SharpDX.Mathematics.dll" LastPackageId="SharpDX.Mathematics" ReferenceKind="App">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+                <CategoryReference Kind="Category" Name="2D" />
+              </p:TypeAnnotation>
+            </Pad>
+            <Pad Id="Op9z4HrCTTaNgf2fWw2kwM" Comment="Maximum Acceleration" Bounds="598,203" ShowValueBox="true" isIOBox="true" Value="new vec(0.02,0.02)">
+              <p:ValueBoxSettings>
+                <p:horizontal p:Type="Boolean">true</p:horizontal>
+              </p:ValueBoxSettings>
+              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="SharpDX.Mathematics.dll" LastPackageId="SharpDX.Mathematics" ReferenceKind="App">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+                <CategoryReference Kind="Category" Name="2D" />
+              </p:TypeAnnotation>
+            </Pad>
+          </Canvas>
+          <Patch Id="DS8SWTYpGHsLiH3YbY75WV" Name="Create" />
+          <Patch Id="Be5QKtdr16VOpPxtxjax72" Name="Update">
+            <Pin Id="JN5IybxAyWBNM0nTYgyeB1" Name="Position" Kind="OutputPin" Bounds="228,615" />
+            <Pin Id="SmqNJgvJvVVMoN2UOxupKE" Name="Center" Kind="InputPin" Bounds="414,396">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="SharpDX.Mathematics.dll" LastPackageId="SharpDX.Mathematics" ReferenceKind="App">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="GTs7AGM6NFqLi7lINB6LUZ" Name="Width" Kind="InputPin" Bounds="475,398" />
+            <Pin Id="CsSToZO1DjwOlEQjmq87HY" Name="Velocity" Kind="OutputPin" Bounds="447,794" />
+            <Pin Id="QEK9N2U7AUOOQHeuxiwDED" Name="Acceleration" Kind="InputPin" Bounds="659,451" />
+            <Pin Id="G0w5H2P7FwCNQJS013f8nY" Name="Acceleration" Kind="OutputPin" Bounds="665,790" />
+          </Patch>
+          <ProcessDefinition Id="GVIM8QylGE8QdPSlcY988Q">
+            <Fragment Id="Q5IXEiChtBFPt4LWy0vKvd" Patch="DS8SWTYpGHsLiH3YbY75WV" Enabled="true" />
+            <Fragment Id="U6yYqoGAetPOkFkz1gTnn0" Patch="Be5QKtdr16VOpPxtxjax72" Enabled="true" />
+          </ProcessDefinition>
+          <Slot Id="U7DW1WKb3EnOKRBUmrI5lH" Name="Position" />
+          <Link Id="EKMoRCGnqWjLDNibVYfinR" Ids="OR2q01MiIllQNXZNvi77HK,JN5IybxAyWBNM0nTYgyeB1" IsHidden="true" />
+          <Link Id="AaEKUVPRvb8OgsW51cpola" Ids="SmqNJgvJvVVMoN2UOxupKE,C1dpKUBrcGtN87PpKTvu34" IsHidden="true" />
+          <Link Id="KbY9DNf82TrNeZLOVjfoVr" Ids="GTs7AGM6NFqLi7lINB6LUZ,UNdiouUVvLDOx9Tenqa7qA" IsHidden="true" />
+          <Link Id="RCF8A0oxeWDQUOGulkSf97" Ids="C1dpKUBrcGtN87PpKTvu34,DEmuc7tMlG1OvfyKHyAQyp" />
+          <Link Id="Tdkkb7lkJOvQRsqr0UP09x" Ids="UNdiouUVvLDOx9Tenqa7qA,G2kecnx7CxLLMMUbsHTTVd" />
+          <Link Id="FHkybvtfr1QN6Pjpy17GP5" Ids="AqOT6MmWgrsNOdjTeSLQQm,OR2q01MiIllQNXZNvi77HK" />
+          <Link Id="EjNrYHsBPbmN2phpMAImpy" Ids="T2oJajxOMT9LsLOVtGL9zd,MCqBjFF8e0lP9XKKJQvqYR" />
+          <Link Id="NrMxF82z7ieQALp7F6dA3x" Ids="MUAwXu2bYNyM5erkl1hseV,TcVPf360evTNqplCfgPTSR" />
+          <Link Id="Epm8C43yy2LOqyoxHoDdwX" Ids="EcAqCAQ0dD9PlwM7mNkDeu,FyUiU4JTqK7PLqOGcb2UU0" />
+          <Slot Id="Bsg8IjV3SLhPeLKi5IYAp0" Name="Velocity">
+            <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="SharpDX.Mathematics.dll" LastPackageId="SharpDX.Mathematics" ReferenceKind="App">
+              <Choice Kind="TypeFlag" Name="Vector2" />
+            </p:TypeAnnotation>
+          </Slot>
+          <Link Id="R5B7OOk5S24NUHzC9MO7KX" Ids="AWoNudmLP0GNDOThrYSs13,CsSToZO1DjwOlEQjmq87HY" IsHidden="true" />
+          <Slot Id="UMSRG8SFeqlPsDx2zoelER" Name="Acceleration">
+            <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="SharpDX.Mathematics.dll" LastPackageId="SharpDX.Mathematics" ReferenceKind="App">
+              <Choice Kind="TypeFlag" Name="Vector2" />
+            </p:TypeAnnotation>
+          </Slot>
+          <Link Id="Lb47XuJMjteOZDRPNDFdR5" Ids="BtEmPjuskDZLOOlOK1wFyc,AqOT6MmWgrsNOdjTeSLQQm" />
+          <Link Id="AoHr8EflZhaLgRpYeESzYN" Ids="QEK9N2U7AUOOQHeuxiwDED,PjZEQOOA6NhLL5FeX7NvLl" IsHidden="true" />
+          <Link Id="FO6MFVNZohBOQeEbIGA8I2" Ids="JWwaochL2ycNjhu4abAhDB,VSzTmNyiKXiLaKrZwntUjF" />
+          <Link Id="ClIBoBKHCatLpyMeTHHe3S" Ids="VSzTmNyiKXiLaKrZwntUjF,G0w5H2P7FwCNQJS013f8nY" IsHidden="true" />
+          <Link Id="Rg5uRZpeK7VNtHrXpxN52Z" Ids="QgRh9DjgdA8N5YgwSSLjOJ,MVDvGbEVJUPOjhZ9GIfwlk" />
+          <Link Id="ENNhyxdekxcNQNrUhZJqAu" Ids="LW7Vp2TKyXMOxaG1Ff5JV6,OxG66zcqbuoM07GexdxWdh" />
+          <Link Id="VeUYOCL39IlO0cbcY01pDE" Ids="QAAE3HlX9L4MKfv5WZOo34,DhHs2LwtIWYLTPVfBClqy9" />
+          <Link Id="NHgrTcv5fUTOCajJlqxiWT" Ids="JWwaochL2ycNjhu4abAhDB,BsWUEbaZpZlNo4UJVZtLkg" />
+          <Link Id="PvrRSBco4dIMpnw7Ai7mqz" Ids="G9iGZfiSENbP39XqcOcNHd,UYeC3BfpmmwN2MfJugFJlM" />
+          <Link Id="IQBJQpxkb77LSIeuiW6rlX" Ids="QAAE3HlX9L4MKfv5WZOo34,Qk64xU0PEC6Mt5PE0SEn8C" />
+          <Link Id="SNJy9FIzKv9MxUlTRnLOLl" Ids="HZomi5gVJ3fN2i9FNTEXt9,R6417yAxpyTPfXpWMxPUn4" />
+          <Link Id="SfrXlPi8yBlOyrOlEJTVUj" Ids="PjZEQOOA6NhLL5FeX7NvLl,U8ow2idWGgSObsUnXEpGME" />
+          <Link Id="O3wWuWA00FbLzVj9OUjG1s" Ids="QaLLo8Dl37ZM5OjIp1FMlO,JWwaochL2ycNjhu4abAhDB" />
+          <Link Id="EuzFhcTsHQ8OZiTWWzMHis" Ids="BKDEUZSknkQQLWq7xyh1Fj,DS87aJ4Mw76MZFmcMCcxar" />
+          <Link Id="TDXiT2wv2H6OLXaSuQiR75" Ids="Kdj5jG6oWxsL1LTeMo2bhO,JEFCFKDUjVVOhxSHFoSPkl" />
+          <Link Id="Kf5IHaX7qbANVUa5Vx738X" Ids="GhIkZjP1sBqNz6YGV3JkAM,CKFuXRcun0oO5OUX64TeAX" />
+          <Link Id="D1YVjNyrN0VMUy7OWPCo5J" Ids="Op9z4HrCTTaNgf2fWw2kwM,BdXUnhSZcUHOlH62ozhIhi" />
+          <Link Id="Dn9kO6YBAbJOAwmKZgW6va" Ids="QAAE3HlX9L4MKfv5WZOo34,AWoNudmLP0GNDOThrYSs13" />
+        </Patch>
+      </Node>
+    </Canvas>
+  </Patch>
+</Document>
