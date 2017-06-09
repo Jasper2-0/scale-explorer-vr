@@ -1,4 +1,4 @@
-# scale-explorer-vr
+# Scale Explorer VR
                                                                    
 	 _____         _        _____         _                            
 	|   __|___ ___| |___   |   __|_ _ ___| |___ ___ ___ ___    _ _ ___ 
@@ -16,7 +16,7 @@ It also requires the following extensions to be installed:
 
 - DirectX11 Nodes - https://vvvv.org/contribution/directx11-nodes
 - VVVV.OpenVR - https://vvvv.org/contribution/vvvv.openvr
-- Microdevil Interset - https://vvvv.org/contribution/microdevil-intersect
+- Microdevil Intersect - https://vvvv.org/contribution/microdevil-intersect
 
 
 Open zoomer/_rootVR.v4p for the VR Prototype, _rootNOVR.v4p can be used on systems 
